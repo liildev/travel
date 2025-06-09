@@ -1,10 +1,10 @@
-import { Brand } from "./ui/brand"
-import { FilterControls } from "./ui/filter"
-import { Header } from "./ui/header"
-import { Hotel } from "./ui/hotel";
+import { Brand } from './ui/brand';
+import { FilterControls } from './ui/filter';
+import { Header } from './ui/header';
+import { Tours } from './ui/tours';
 
 export const Travel = () => {
-  return (
+	return (
 		<>
 			<Header />
 
@@ -12,11 +12,8 @@ export const Travel = () => {
 				<Brand />
 				<FilterControls />
 
-				<section className='space-y-4 container'>
-					<Hotel />
-					<Hotel />
-				</section>
+				<Tours />
 			</main>
 		</>
 	);
-}
+};
